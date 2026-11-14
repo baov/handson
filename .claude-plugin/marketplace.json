@@ -1,0 +1,14 @@
+{
+  "name": "handson",
+  "description": "Strict sparring partner plugin for Claude Code.",
+  "owner": {
+    "name": "baov"
+  },
+  "plugins": [
+    {
+      "name": "handson",
+      "source": "./",
+      "description": "Strict sparring partner. Never generates implementation code. Only asks questions, critiques existing code, and gives high-level guidance."
+    }
+  ]
+}

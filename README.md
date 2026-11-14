@@ -69,16 +69,25 @@ handson: “Eviction is O(1). If two threads call `get` at the same time on a mi
 
 ## Install
 
+### As a Claude Code plugin
+
+```text
+/plugin marketplace add baov/handson
+/plugin install handson
+```
+
+### Manual skill install
+
 Personal skill:
 ```bash
 mkdir -p ~/.claude/skills/handson
-# place SKILL.md in ~/.claude/skills/handson/
+# place skills/handson/SKILL.md in ~/.claude/skills/handson/SKILL.md
 ```
 
 Project skill:
 ```bash
 mkdir -p .claude/skills/handson
-# place SKILL.md in .claude/skills/handson/
+# place skills/handson/SKILL.md in .claude/skills/handson/SKILL.md
 ```
 
 Restart Claude Code or reload skills.

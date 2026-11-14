@@ -1,0 +1,10 @@
+{
+  "name": "handson",
+  "description": "Strict sparring partner. Never generates implementation code. Only asks questions, critiques existing code, and gives high-level guidance.",
+  "version": "0.1.0",
+  "author": {
+    "name": "baov"
+  },
+  "repository": "https://github.com/baov/handson",
+  "license": "MIT"
+}
