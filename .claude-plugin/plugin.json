@@ -1,7 +1,7 @@
 {
   "name": "handson",
-  "description": "Strict sparring partner. Never generates implementation code. Only asks questions, critiques existing code, and gives high-level guidance.",
-  "version": "0.1.0",
+  "description": "Strict sparring partner skill. Never generates implementation code. Optional hook blocks write tools.",
+  "version": "0.2.0",
   "author": {
     "name": "baov"
   },

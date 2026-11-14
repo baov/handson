@@ -92,6 +92,18 @@ mkdir -p .claude/skills/handson
 
 Restart Claude Code or reload skills.
 
+Manual install gives you the skill only, without strict mode.
+
+## Strict mode (optional)
+
+The plugin ships a `PreToolUse` hook that blocks the `Write`, `Edit` and `MultiEdit` tools. Even if the conversation drifts, Claude cannot touch your files: every attempt is refused with *"handson strict mode: write the code yourself"*.
+
+- **On:** strict mode is active whenever the `handson` plugin is enabled.
+- **Off:** disable the plugin with `/plugin` (Installed tab) or `claude plugin disable handson`, and re-enable it the same way.
+- **Skill without strict mode:** use the manual skill install above instead of the plugin.
+
+Note: the hook blocks every file write by Claude in the session, not only code. Turn the plugin off when you want Claude to edit files again.
+
 ## Philosophy
 
 This skill is intentionally weak as a productivity tool and strong as a practice tool.  
